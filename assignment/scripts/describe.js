@@ -71,10 +71,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First we declare our variables. isStudent has a boolean value of true, age has a numeric value of 34, as does
+// zip with a value of 55407. The first statement in the conditional would not return, as the && operator indicates
+// both variables would need to meet the defined requirements, and zip is < 80000. The second statement also would not return, 
+// as even though the || indicator looks for either requirement to be true,
+// neither of them are met. The third statement would then return the console log message 'Welcome to Prime!'
+// as isStudent === true. If isStudent were false, but all other variables were kept the same, the last
+// console log message would return. 
 
 //CODE
 /*
