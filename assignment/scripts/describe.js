@@ -134,9 +134,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// If we're gonna get nitpicky, the description said colorOne should be 'blue' and colorTwo should be 'red'
+// So these could be switched, though we're about to change them both to purple so it won't matter in a few lines.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+// The problem is, only colorOne is being changed in the example, when the instructions ask for both
+// color variables to be changed. We would do this by simply adding another line directly below the new 
+// colorOne change to say:
+// colorTwo = 'purple'; 
+// or colorTwo = colorOne;
 
 if (mix === true) {
   colorOne = 'purple';
