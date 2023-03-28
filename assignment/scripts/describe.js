@@ -177,6 +177,17 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// Instructions specify to check if age is greater than or equal to minAge, so we could change the first line
+// of the if statment to be: ' if(age >= minAge) { ' though having minAge <= age means the same thing. That still doesn't
+// fix the code. What we really need to do is flip the console.log messages, as it's currently returning 'no entry' for our
+// if statement, when it should be 'enter'
+// So the code should look like this:
+// if(age >= minAge) {
+//    console.log('enter');
+// } else {
+//    console.log('no entry');
+// }
+
 if(minAge <= age) {
   console.log('no entry');
 } else {
