@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set its value to a string called 'Dane'
+// There's a conditional statement after this checking for name to be defined strictly as 'Mary,'
+// in which case the console.log() would return 'Hi, Mary!'
+// However in our case, name = 'Dane,' so it will return the else statement 'How do you do?' instead.
 
 //CODE
 /*
