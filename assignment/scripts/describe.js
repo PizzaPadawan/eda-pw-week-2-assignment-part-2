@@ -146,6 +146,7 @@ let mix = true;
 // colorOne change to say:
 // colorTwo = 'purple'; 
 // or colorTwo = colorOne;
+// or changing line 152 to say colorOne = colorTwo = 'purple';
 
 if (mix === true) {
   colorOne = 'purple';
