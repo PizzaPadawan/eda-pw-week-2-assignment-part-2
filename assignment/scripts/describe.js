@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Here, we start by declaring the secret variable without defining it, then we declare the code variable as 123.
+// The first conditional statement declares secret to return 'super' if code is strictly equal to 123,
+// Then it multiplies the value of code (123) by 2 (246).
+// The conditional statement that follows would return a different value for secret if code were > 250,
+// However, in this case it is not. So console.log(secret) returns "super"
 
 //CODE
 /*
