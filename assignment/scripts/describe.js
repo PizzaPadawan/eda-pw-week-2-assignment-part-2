@@ -161,6 +161,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// I believe the question is looking for BOTH values to be true in order to trigger the console.log
+// statement, in which case we need to change the || operator to && so that it only returns the message
+// if both statements are true. 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
